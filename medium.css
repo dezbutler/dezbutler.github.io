@@ -1,0 +1,7 @@
+@media only screen and (min-width: 32.5em) {
+    header img {
+        float: right;
+        overflow: auto;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    }
+}
