@@ -20,7 +20,8 @@ header {
 }
 
 header img {
-	
+	position: relative;
+	overflow: auto;
 }
 
 main {
