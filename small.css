@@ -3,7 +3,7 @@ body {
 	padding-top: 20px;
 	text-align: center;
 	font-family: "Trebuchet MS", sans-serif;
-	width: 810px;
+	
 }
 
 
@@ -11,18 +11,20 @@ body {
 header {
 	background-color: #9a2424;
 	padding: 20px;
-	padding-left: 115px;
 	margin: auto;
-	text-align: left;
+	text-align: center;
 	font-size: 3em;
 	color: white;
-	border-radius: 10px;
+	
 }
 
-header img {
-	position: relative;
-	overflow: auto;
+
+
+
+p {
+	margin: auto;
 }
+
 
 main {
 	text-align: left;
@@ -50,7 +52,6 @@ footer {
 	padding: 20px;
 	margin: auto;
 	text-align: center;
-	border-radius: 10px;
 	font-size: 1em;
 	color: white;
 }
