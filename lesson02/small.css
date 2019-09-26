@@ -57,6 +57,9 @@ div.description {
 	display: block;
 }
 
+hr {
+	max-width: 80%;
+}
 
 footer a {
   color: white;
