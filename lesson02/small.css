@@ -1,0 +1,72 @@
+body {
+	margin: auto;
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	
+}
+
+
+
+header {
+	background-color: #4d649b;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	
+}
+
+
+
+
+p {
+	margin: auto;
+}
+
+
+main {
+	text-align: center;
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1.5em;
+	margin: auto;
+}
+
+img {
+	max-width: 99%;
+}
+
+div.screenshot {
+	text-align: center;
+	padding: 10px;
+	max-width: 95%;
+	display: block;
+}
+
+div.description {
+	padding: 10px;
+	text-align: left;
+	max-width: 95%;
+	display: block;
+}
+
+
+footer a {
+  color: white;
+}
+
+footer {
+	background-color: #4d649b;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+}
