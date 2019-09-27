@@ -1,0 +1,129 @@
+body {
+    margin: auto;
+	font-family: 'Lato', sans-serif;
+}
+/* phone or baseline views **************************/
+
+header {
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 24pt;
+    max-width: 1000px;
+}
+
+h1 {
+    margin: auto;
+    background-color: #364957;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    font-size: 14pt;
+}
+
+h2 {
+    color: #4d4d4d;
+    font-weight: normal;
+    font-size: 14pt;
+    margin: auto;
+    padding: 10px;
+}
+
+a {
+    font-size: 14pt;
+    margin: auto;
+    padding: 10px;
+}
+
+#head1 {
+    font-size: 24pt;
+    color: white;
+}
+
+#head2 {
+    font-size: 20pt;
+    color: white;
+}
+
+p {
+    color: #4d4d4d;
+    font-size: 14pt;
+    margin: auto;
+    padding: 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+
+main section {
+    max-width: 300px;
+	border: 1px solid #bbb;
+    background-color: #efeef1;
+    border-radius: 10px;
+    margin: 10px;
+}
+section:nth-child(2) {
+	display: none;
+}
+
+main section img {
+    margin: 10px;
+    max-width: 280px;
+}
+
+footer a {
+    color: white;
+    font-size: 12pt;
+}
+
+footer {
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 12pt;
+    max-width: 1000px;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	section:nth-child(2) {
+		display: block;
+	}
+
+	section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
