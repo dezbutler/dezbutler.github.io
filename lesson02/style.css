@@ -14,7 +14,7 @@ header {
     max-width: 1000px;
 }
 
-h1 {
+h2 {
     margin: auto;
     background-color: #364957;
     color: white;
@@ -23,7 +23,7 @@ h1 {
     font-size: 14pt;
 }
 
-h2 {
+h3 {
     color: #4d4d4d;
     font-weight: normal;
     font-size: 14pt;
@@ -37,7 +37,8 @@ a {
     padding: 10px;
 }
 
-#head1 {
+h1 {
+    margin: auto;
     font-size: 24pt;
     color: white;
 }
