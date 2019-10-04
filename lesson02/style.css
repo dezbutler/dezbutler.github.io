@@ -70,9 +70,7 @@ main section {
     border-radius: 10px;
     margin: 10px;
 }
-section:nth-child(2) {
-	display: none;
-}
+
 
 main section img {
     margin: 10px;
