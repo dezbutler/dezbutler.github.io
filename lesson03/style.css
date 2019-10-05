@@ -1,0 +1,87 @@
+/* phone and baseline view */
+header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+    color: #4d585b;
+    font-size: 1rem;
+}
+
+body {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    background-color: #f9f8f2;
+}
+
+
+nav {
+    max-width: 900px;
+	background-color: #488a99;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul {
+	list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    padding: 20px;
+	display: block;
+	color: #f9f8f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #4d585b;
+	color: #white;
+}
+.active {
+	color: #dbae58;
+}
+main {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    color: #4d585b;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    background-color: #488a99;
+    color: #f9f8f2;
+}
+
+footer a {
+    color: #f9f8f2;
+}
+
+/* tablet view */
+@media only screen and (min-width: 37.5em) {
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav a {
+        font-size: 1rem;
+	}
+}
+main {
+    min-height: 300px;
+}
+
+/* desktop view */
+@media only screen and (min-width: 60em) {
+
+nav a {
+    font-size: 1.1rem;
+}
+
+
+}
