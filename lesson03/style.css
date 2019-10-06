@@ -49,6 +49,30 @@ main {
     color: #4d585b;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+th, td {
+    padding: 15px;
+  }
+
+#sampleheader {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#samplenav {
+    background-color: #488a99;
+    color: #f9f8f2;
+}
+
+#samplefooter {
+    background-color: #488a99;
+    color: #f9f8f2;
+}
+
 footer {
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
