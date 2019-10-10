@@ -42,7 +42,7 @@ nav ul {
 .navigation a {
 	display: block;
 	color: #f9f8f2;
-	padding: 20px;
+	padding: 20px 0px;
 	text-align: center;
 	text-decoration: none;
 }
