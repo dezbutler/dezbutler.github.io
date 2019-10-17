@@ -15,5 +15,10 @@
     }
     #logo {
         width: 175px;
-    }
+	}
+	.forecast {
+		display: block;
+		margin: 10px auto;
+	    padding: 10px;
+	}
 }
