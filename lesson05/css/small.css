@@ -93,6 +93,10 @@ main {
 	opacity: .9;
 }
 
+.summary p {
+    text-align: left;
+}
+
 .forecast {
    display: none;
 }
