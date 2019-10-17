@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Weather Works</title>
+    <title>Weather Works | Preston</title>
     <meta charset="utf-8"/>
     <meta name="description" content="Weather Works weather website for Preston Idaho">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,14 +16,13 @@
   </head>
   <body>
     <header>
-        <div>
-          <img id="logo" src="images/wwlogo.png" alt="Weather Works official logo"/>
-        </div>
-        <div>
-          <h1>Weather Works</h1>
-          <p>The Right Forecast for the Job</p>
-        </div>
-	  
+      <div>
+        <img id="logo" src="images/wwlogo.png" alt="Weather Works official logo"/>
+      </div>
+      <div>
+        <h1>Weather Works</h1>
+        <p>The Right Forecast for the Job</p>
+      </div>
     </header>
     <nav>
         <ul class="navigation">
@@ -38,10 +37,18 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="contentbox">Hero w/ weather summary</div>
-        <div class="contentbox">5 Day Forecast</div>
-		    <div class="contentbox">Article</div>
-        <div class="contentbox">Contact Information</div>
+        <div class="herodiv">
+            <img src="images/preston.jpg">
+            <section class="summary">
+              <h2>Weather Summary</h2>
+              <p>Currently: <span id="current">Sunny</span</p>
+              <p>Temperature: <span id="temperature">76&#xb0;</span></p>
+              <p>Humidity: <span id="humidity">69%</span></p>
+              <p>Precipitation: <span id="precipitation">0 inches</span></p>
+              <p>Wind Speed: <span id="wind">5 mph</span></p>
+            </section>
+        </div>
+        
 	
 	  </main>
 
