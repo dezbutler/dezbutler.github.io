@@ -113,6 +113,7 @@ main {
     float: none;
     text-align: center;
     margin: auto;
+    overflow: hidden;
 }
 
 #author {
