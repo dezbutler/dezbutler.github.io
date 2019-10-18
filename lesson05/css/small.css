@@ -103,10 +103,16 @@ main {
 
 .article {
     background-color: #b4b4b4;
-    
     margin: 10px auto;
     padding: 40px;
     text-align: left; 
+}
+
+.article img {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: auto;
 }
 
 #author {
@@ -116,6 +122,10 @@ main {
 .contact {
     margin: 10px auto;
     padding: 10px;
+}
+
+.contact img {
+    display: none;
 }
 
 .contentbox {

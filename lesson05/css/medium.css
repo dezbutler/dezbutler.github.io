@@ -21,4 +21,24 @@
 		margin: 10px auto;
 	    padding: 10px;
 	}
+	.article {
+		overflow: hidden;
+	}
+	.article img {
+		float: right;
+		padding: 20px;
+	}
+	.contact {
+		display: flex;
+		margin: auto;
+		text-align: left;
+	}
+	.contact div {
+		margin: auto 0;
+		padding: 20px;
+		vertical-align: middle;
+	}
+	.contact img {
+		display: block;
+	}
 }
