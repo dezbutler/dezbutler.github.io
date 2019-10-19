@@ -38,7 +38,7 @@
 	}
 	.article img {
 		float: right;
-		padding: 20px;
+		margin: 20px;
 	}
 	.contact {
 		display: flex;
@@ -52,5 +52,6 @@
 	}
 	.contact img {
 		display: block;
+		border: 1px solid #777777;
 	}
 }

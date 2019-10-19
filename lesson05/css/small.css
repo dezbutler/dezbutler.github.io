@@ -93,9 +93,9 @@ main {
 	left: 50px;
     background-color: #488a99;
     color: #f9f8f2;
-	border: 1px solid #000;
+	border: 1px solid #000000;
 	padding: 1.5rem;
-	box-shadow: 0 0 15px #111;
+	box-shadow: 0 0 15px #111111;
 	opacity: .9;
 }
 
@@ -120,6 +120,7 @@ main {
     text-align: center;
     margin: auto;
     overflow: hidden;
+    box-shadow: 0 0 15px #555555;
 }
 
 #author {
