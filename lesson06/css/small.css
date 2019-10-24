@@ -87,6 +87,10 @@ main {
     width: 100%;
 }
 
+#townpic img {
+    max-width: 100%;
+}
+
 .summary {
 	position: absolute;
 	top: 25px;

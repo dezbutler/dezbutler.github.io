@@ -41,15 +41,21 @@
         <h2>Preston Idaho</h2>
         <div class="herodiv">
             <div id="townpic">
-              <img src="images/preston.jpg" alt="Landscape photo of Preston"/>
+              <picture>
+                <source media="(max-width: 599px)" srcset="images/franklin600w.jpg">
+                <source media="(max-width: 799px)" srcset="images/franklin800w.jpg">
+                <source media="(min-width: 800px)" srcset="images/franklin1000w.jpg">
+                <img src="images/franklin1000w.jpg" alt="Probably somewhere called Franklin">
+              </picture>
             </div>
             <section class="summary">
               <h3>Weather Summary</h3>
               <p>Currently: <span id="current">Sunny</span></p>
-              <p>Temperature: <span id="temperature">76&#xb0;</span></p>
+              <p>Temperature: <span id="temperature">76</span>&#xb0; F</p>
               <p>Humidity: <span id="humidity">69&#x0025;</span></p>
               <p>Precipitation: <span id="precipitation">0 inches</span></p>
-              <p>Wind Speed: <span id="wind">5 mph</span></p>
+              <p>Wind Speed: <span id="wind">5</span> mph</p>
+              <p>Wind Chill: <span id="chillfactor"><div id="outputDiv"></div></span></p>
             </section>
         </div>
         <div class="forecast">
@@ -101,5 +107,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>
