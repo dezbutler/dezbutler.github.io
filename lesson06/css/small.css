@@ -82,6 +82,15 @@ main {
     position: relative;
 }
 
+section p {
+    display: inline-block;
+    margin: 2px;
+}
+
+#outputDiv {
+    display: inline-block;
+}
+
 #townpic {
     overflow: hidden;
     width: 100%;
