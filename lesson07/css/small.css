@@ -166,12 +166,14 @@ section p {
     width: 100%;
     grid-template-columns: 1fr;
 }
+
 .grid figure {
     margin: auto;
     padding: 5px;
 }
+
 .grid figure img:hover {box-shadow: 0 0 10px #333;}
-}
+
 
 footer {
     font-family: 'Open Sans', sans-serif;
