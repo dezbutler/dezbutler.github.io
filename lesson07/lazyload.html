@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Lazy Load</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="A demonstration of progressive loading images">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <div>    
+        <h1>Progressive Loading Images</h1>
+      </div>
+    </header>
+    <main>
+        <picture>
+            <img src="data/img/placeholder.png" data-src="data/img/01.jpg" alt="autumn pond"/>
+        </picture><br>
+        <picture>
+            <img src="data/img/placeholder.png" data-src="data/img/02.jpg" alt="alpine wildflowers"/>
+        </picture><br>
+        <picture>
+            <img src="data/img/placeholder.png" data-src="data/img/03.jpg" alt="sunset reflection on the lake"/>
+        </picture><br>
+        <picture>
+            <img src="data/img/placeholder.png" data-src="data/img/04.jpg" alt="city street at night"/>
+        </picture><br>
+        <picture>
+            <img src="data/img/placeholder.png" data-src="data/img/05.jpg" alt="twirling blonde hair"/>
+        </picture><br>
+        <picture>
+            <img src="data/img/placeholder.png" data-src="data/img/06.jpg" alt="high canyon waterfall"/>
+        </picture>        
+    </main>
+    <script src="js/progressiveload.js" defer></script>
+  </body>
+</html>
