@@ -1,0 +1,63 @@
+/* tablet view */
+@media only screen and (min-width: 37.5em) {
+    .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #f9f8f2;
+    }
+    #logo {
+        width: 175px;
+	}
+	.forecast {
+		display: block;
+		margin: 10px auto;
+	    padding: 10px;
+	}
+	#fiveDay {
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	table {
+		margin: auto;
+	}
+	.days {
+		background-color: #488a99;
+		color: #f9f8f2;
+	}
+	.article {
+		overflow: hidden;
+	}
+	.article img {
+		float: right;
+		margin: 20px;
+	}
+	.contact {
+		display: flex;
+		margin: auto;
+		text-align: left;
+	}
+	.contact div {
+		margin: auto 0;
+		padding: 20px;
+		vertical-align: middle;
+	}
+	.contact img {
+		display: block;
+		border: 1px solid #777777;
+	}
+	.grid {
+		align-content: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
