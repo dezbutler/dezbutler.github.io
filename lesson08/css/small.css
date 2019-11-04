@@ -225,6 +225,10 @@ form input.submitbutton {
     max-width: 20rem;
 }
 
+#req {
+    margin: .5rem 0;
+    font-size: .75rem;
+}
 
 footer {
     font-family: 'Open Sans', sans-serif;

@@ -42,10 +42,11 @@
           <form method="GET" action="thanks.html">
             <fieldset>
               <legend>Person Reporting</legend>
-              <label class="formtitle">Full Name* <input type="text" name="name" required pattern="[A-Za-z\s]{5,}" placeholder="Jane Smith"></label>
+              <label class="formtitle">Full Name* <input type="text" name="name" pattern="[A-Za-z\s]{5,}" placeholder="Jane Smith" required></label>
               <label class="formtitle">Email <input type="email" name="email" placeholder="address@email.com"></label>
-              <label class="formtitle">Phone <input type="tel" name="phone" placeholder="208-555-6789"></label>
-              <label class="formtitle">Zip Code <input type="number" name="zip" placeholder="90210"></label>
+              <label class="formtitle">Phone* <input type="tel" name="phone" placeholder="208-555-6789" required></label>
+              <label class="formtitle">Zip Code* <input type="number" name="zip" placeholder="90210" required></label>
+              <p id="req">&emsp;* required fields</p>
             </fieldset>
             <fieldset>
               <legend>Storm Details</legend>
