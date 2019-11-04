@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="js/menutoggle.js"></script>
+    <script src="js/stormrating.js"></script>
   </head>
   <body>
     <header>
@@ -37,6 +38,47 @@
     </nav>
     <main>
         <h2>Storm Center</h2>
+        <h3>Send us a Storm Report:</h3>
+          <form method="GET" action="thanks.html">
+            <fieldset>
+              <legend>Person Reporting</legend>
+              <label class="formtitle">Full Name* <input type="text" name="name" required pattern="[A-Za-z\s]{5,}" placeholder="Jane Smith"></label>
+              <label class="formtitle">Email <input type="email" name="email" placeholder="address@email.com"></label>
+              <label class="formtitle">Phone <input type="tel" name="phone" placeholder="208-555-6789"></label>
+              <label class="formtitle">Zip Code <input type="number" name="zip" placeholder="90210"></label>
+            </fieldset>
+            <fieldset>
+              <legend>Storm Details</legend>
+              <label class="formtitle">Date of Storm <input type="date" name="stormdate"></label>
+              <label class="formtitle" for="storm_type">Type of Storm 
+              <input type="text" name="stormtype" id="storm_type" list="storm_list">
+              <datalist id="storm_list">
+                <option>Blizzard</option>
+                <option>Flash Flood</option>
+                <option>Hail</option>
+                <option>Hurricane</option>
+                <option>Thunderstorm</option>
+                <option>Tornado</option>
+              </datalist></label>
+              <label class="formtitle" for="rating">Storm Severity (1 to 10)
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              <span id="ratingvalue">5</span></label>
+              <label class="formtitle">Storm Region
+                  <select name="region">
+                      <option value="">Select Region... </option>
+                      <option value="preston">Preston</option>
+                      <option value="sodasprings">Soda Springs</option>
+                      <option value="fishhaven">Fish Haven</option>
+                  </select>
+              </label>
+              <div>Were you personally in danger?</div>
+              <label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
+              <label class="radio"><input type="radio" name="danger" value="no"> No</label>
+              <label class="radio"><input type="radio" name="danger" value="maybe"> Maybe</label>
+              <label class="formtitle">Additional Comments<input class="comments" type="text" name="comments" placeholder="Type here..."></label>
+            </fieldset>
+              <input type="submit" value="Report Storm" class="submitbutton">
+          </form>
 
 	</main>
 
