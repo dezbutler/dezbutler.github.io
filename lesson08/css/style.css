@@ -9,6 +9,7 @@ header {
 
 main {
     margin: auto;
+    text-align: center;
 }
 
 table, th, td, caption{
@@ -31,9 +32,17 @@ tr:nth-child(even) {
     color: #ffffff;
 }
 
+#acmetable {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    box-shadow: 10px 10px 15px #628ca6;
+}
+
 table {
     margin: auto;
     text-align: center;
+    
 }
 
 table caption {
