@@ -77,6 +77,38 @@ main {
     background-color: #dbae58;
 }
 
+.towncards {
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+.towncard h2 {
+    margin-bottom: 0px;
+}
+
+.towncard p {
+    padding-bottom: .5rem;
+}
+
+.towncard img {
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px #444444;
+}
+
+.towncard {
+    background-color: #b4b4b4;
+    color: #4d585b;
+    padding: 20px;
+}
+
+.motto {
+    font-size: .8rem;
+}
+
 .herodiv {
     margin: 10px auto;
     position: relative;
