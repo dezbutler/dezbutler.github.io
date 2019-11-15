@@ -95,6 +95,7 @@ main {
 }
 
 .towncard img {
+    max-width: 100%;
     margin-top: 20px;
     box-shadow: 0px 0px 20px #444444;
 }
