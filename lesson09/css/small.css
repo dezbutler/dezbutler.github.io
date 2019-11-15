@@ -1,0 +1,246 @@
+/* phone and baseline view */
+body {
+    text-align: center;
+    margin: auto;
+    background-color: #f9f8f2;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+    color: #4d585b;
+    font-size: 1rem;
+}
+
+header p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header div {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#logo {
+    width: 150px;
+}
+.navigation .active {
+	color: #dbae58;
+}
+nav {
+	margin: 0 auto;
+    background-color: #488a99;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul {
+    max-width: 1000px;
+    margin: auto;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #f9f8f2;
+	padding: 20px 0px;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	background-color: #4d585b;
+}
+.responsive li {
+	display: block;
+}
+
+main {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    color: #4d585b;
+}
+
+#saturday-banner {
+    margin: auto;
+    padding: 30px;
+    background-color: #dbae58;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+section p {
+    display: inline-block;
+    margin: 2px;
+}
+
+#outputDiv {
+    display: inline-block;
+}
+
+#townpic {
+    overflow: hidden;
+    width: 100%;
+}
+
+#townpic img {
+    max-width: 100%;
+}
+
+.summary {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+    background-color: #488a99;
+    color: #f9f8f2;
+	border: 1px solid #000000;
+	padding: 1.5rem;
+	box-shadow: 0 0 15px #111111;
+	opacity: .9;
+}
+
+.summary p {
+    text-align: left;
+}
+
+.forecast {
+   display: none;
+}
+
+.article {
+    background-color: #b4b4b4;
+    margin: 10px auto;
+    padding: 40px;
+    text-align: left; 
+}
+
+.article img {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 15px #555555;
+}
+
+#author {
+    font-style: italic;
+}
+
+.contact {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact img {
+    display: none;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #000000;
+    padding: 15px;
+    background-color: #eeeeee;
+    color: #444444;
+    font-style: italic;
+}
+
+.grid {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.grid figure {
+    margin: auto;
+    padding: 5px;
+}
+
+.grid figure img:hover {box-shadow: 0 0 10px #333;}
+
+form fieldset {
+    margin: 2rem auto;
+    max-width: 500px;
+    border: 1px solid #488a99;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: left;
+}
+
+form legend {
+    color: #488a99;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.formtitle, form div {
+    display: block;
+    padding-top: 1.75rem;
+    color: #488a99;
+    font-size: 1rem;
+}
+
+form label.formtitle input, form label.formtitle select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.radio {
+    display: block;
+    padding: .5rem 0;
+    color: #555;
+}
+
+form input.submitbutton {
+    border: none;
+    background-color: #4d585b;
+    color: #f9f8f2;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+#req {
+    margin: .5rem 0;
+    font-size: .75rem;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    background-color: #488a99;
+    color: #f9f8f2;
+}
+
+footer a {
+    color: #f9f8f2;
+}
+
+#junkdate {
+	color: #f9f8f2;
+}
