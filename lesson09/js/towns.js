@@ -12,6 +12,7 @@ fetch(requestURL)
   for (let i = 0; i < towns.length; i++ ) {
     if(relevantTowns.includes(towns[i].name)) {
         let card = document.createElement('section');
+        let block = document.createElement('div');
         let h2 = document.createElement('h2');
         let townmotto = document.createElement('p');
         let foundedyear = document.createElement('p');
@@ -20,6 +21,7 @@ fetch(requestURL)
         let townpic = document.createElement('img');
         
         card.className = 'towncard';
+        block.classname = 'textblock';
         townmotto.className = 'motto';
         
         h2.textContent = towns[i].name
@@ -30,12 +32,14 @@ fetch(requestURL)
         townpic.setAttribute('src', "images/" + towns[i].photo);
         townpic.setAttribute('alt', towns[i].name);
 
-        card.appendChild(h2);
-        card.appendChild(townmotto);
-        card.appendChild(foundedyear);
-        card.appendChild(population);
-        card.appendChild(annualrain);
-        card.appendChild(townpic);    
+        card.appendChild(block);
+        card.appendChild(townpic);
+        block.appendChild(h2);
+        block.appendChild(townmotto);
+        block.appendChild(foundedyear);
+        block.appendChild(population);
+        block.appendChild(annualrain);
+            
         
         document.querySelector('div.towncards').appendChild(card);
     }

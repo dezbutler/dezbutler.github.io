@@ -61,6 +61,35 @@
         grid-template-columns: 1fr 1fr;
 	}
 	.towncards {
-        grid-template-columns: 1fr 1fr; 
-    }
+        grid-template-columns: 1fr;
+	}
+	
+	.towncards img {
+		width: 50%;
+		float: left;
+		margin: auto;
+	}
+
+	.towncards div {
+		width: 50%;
+		float: right;
+		margin: auto;
+	}
+
+	.towncards div p {
+		display: block;
+	}
+
+	section.towncard:nth-of-type(3) img {
+		width: 50%;
+		float: right;
+		margin: auto;
+	}
+
+	section.towncard:nth-of-type(3) div {
+		width: 50%;
+		float: left;
+		margin: auto;
+	}
+
 }
