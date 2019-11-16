@@ -16,6 +16,15 @@
     #logo {
         width: 175px;
 	}
+
+	.welcomenews {
+		overflow: hidden;
+	}
+	.welcomenews img {
+		float: right;
+		margin: 20px;
+	}
+
 	.forecast {
 		display: block;
 		margin: 10px auto;
@@ -33,10 +42,10 @@
 		background-color: #488a99;
 		color: #f9f8f2;
 	}
-	.article {
+	.story {
 		overflow: hidden;
 	}
-	.article img {
+	.story img {
 		float: right;
 		margin: 20px;
 	}
@@ -74,10 +83,6 @@
 		width: 50%;
 		float: right;
 		margin: auto;
-	}
-
-	.towncards div p {
-		display: block;
 	}
 
 	section.towncard:nth-of-type(3) img {

@@ -77,6 +77,21 @@ main {
     background-color: #dbae58;
 }
 
+.welcomenews {
+    margin: 10px auto;
+    padding: 40px;
+    text-align: left; 
+}
+
+.welcomenews img {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 15px #555555;
+}
+
 .towncards {
     margin: auto;
     padding: 40px;
@@ -93,6 +108,10 @@ main {
 
 .towncard p {
     padding-bottom: .5rem;
+}
+
+.towncards div p {
+    display: block;
 }
 
 .towncard img {
@@ -159,14 +178,14 @@ section p {
    display: none;
 }
 
-.article {
+.story {
     background-color: #b4b4b4;
     margin: 10px auto;
     padding: 40px;
     text-align: left; 
 }
 
-.article img {
+.story img {
     display: block;
     float: none;
     text-align: center;
