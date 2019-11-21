@@ -74,11 +74,11 @@ fetch(apiURLforecast)
     weekday[12] = "Fri";
     weekday[13] = "Sat";
   
-    var one = weekday[d.getDay()];
-    var two = weekday[d.getDay() + 1];
-    var thr = weekday[d.getDay() + 2];
-    var fou = weekday[d.getDay() + 3];
-    var fiv = weekday[d.getDay() + 4];
+    var one = weekday[d.getDay() + 1];
+    var two = weekday[d.getDay() + 2];
+    var thr = weekday[d.getDay() + 3];
+    var fou = weekday[d.getDay() + 4];
+    var fiv = weekday[d.getDay() + 5];
     document.getElementById("wday1").textContent = one;
     document.getElementById("wday2").textContent = two;
     document.getElementById("wday3").textContent = thr;
