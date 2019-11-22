@@ -20,11 +20,11 @@ fetch(apiURL)
         } else if (speed < 3){
             return "N/A";
         } else {
-        return 35.74 + (0.6215 * tempF) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempF * Math.pow(speed, 0.16));
+        return Math.round(35.74 + (0.6215 * tempF) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempF * Math.pow(speed, 0.16))) + "&#xb0; F";
     }
     }
 
-    document.getElementById('outputDiv').innerHTML = chill.toFixed(0) + " mph";
+    document.getElementById('outputDiv').innerHTML = chill
 
 
   });
@@ -35,25 +35,19 @@ fetch(apiURLforecast)
     .then((jsObject) => {
         console.log(jsObject);
 
-        document.getElementById('day1').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[3].weather[0].icon + '.png');  
-        document.getElementById('day1').setAttribute('alt', jsObject.list[3].weather[0].description + ' icon');
-        document.getElementById('day1temp').textContent = jsObject.list[3].main.temp_max.toFixed(0);
+        var count = 1;
 
-        document.getElementById('day2').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[11].weather[0].icon + '.png');  
-        document.getElementById('day2').setAttribute('alt', jsObject.list[11].weather[0].description + ' icon');
-        document.getElementById('day2temp').textContent = jsObject.list[11].main.temp_max.toFixed(0);
+        jsObject.list.forEach(getData);
 
-        document.getElementById('day3').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[19].weather[0].icon + '.png');  
-        document.getElementById('day3').setAttribute('alt', jsObject.list[19].weather[0].description + ' icon');
-        document.getElementById('day3temp').textContent = jsObject.list[19].main.temp_max.toFixed(0);
-
-        document.getElementById('day4').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[27].weather[0].icon + '.png');  
-        document.getElementById('day4').setAttribute('alt', jsObject.list[27].weather[0].description + ' icon');
-        document.getElementById('day4temp').textContent = jsObject.list[27].main.temp_max.toFixed(0);
-
-        document.getElementById('day5').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[35].weather[0].icon + '.png');  
-        document.getElementById('day5').setAttribute('alt', jsObject.list[35].weather[0].description + ' icon');
-        document.getElementById('day5temp').textContent = jsObject.list[35].main.temp_max.toFixed(0);
+        function getData(item,index){
+            
+            if (item.dt_txt.includes("18:00:00")) {
+                document.getElementById('day' + count).setAttribute('src', 'https://openweathermap.org/img/w/' + item.weather[0].icon + '.png');  
+                document.getElementById('day' + count).setAttribute('alt', item.weather[0].description + ' icon');
+                document.getElementById('day' + count + 'temp').textContent = item.main.temp_max.toFixed(0);
+                count++;
+            }
+        } 
 
     });
 
