@@ -39,7 +39,7 @@ fetch(apiURLforecast)
 
         jsObject.list.forEach(getData);
 
-        function getData(item,index){
+        function getData(item){
             
             if (item.dt_txt.includes("18:00:00")) {
                 document.getElementById('day' + count).setAttribute('src', 'https://openweathermap.org/img/w/' + item.weather[0].icon + '.png');  
