@@ -194,6 +194,26 @@ section p {
     box-shadow: 0 0 15px #555555;
 }
 
+.events {
+    display: block;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #488a99;
+    color: #f9f8f2;
+    padding: 20px;
+}
+
+.events h3 {
+    margin-top: 0px;
+}
+
+.events p {
+    padding-bottom: .5rem;
+	display: block;
+}
+
 #author {
     font-style: italic;
 }
