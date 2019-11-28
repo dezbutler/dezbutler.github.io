@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Weather Works | Fish Haven</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Weather Works weather website for Fish Haven Idaho">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" type="text/css" rel="stylesheet"/>
+    <link href="css/medium.css" type="text/css" rel="stylesheet"/>
+    <link href="css/large.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/menutoggle.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img id="logo" src="images/wwlogo.png" alt="Weather Works Official logo"/>
+      </div>
+      <div>
+        <h1>Weather Works</h1>
+        <p>The Right Forecast for the Job</p>
+      </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Fish Haven Idaho</h2>
+        <div class="herodiv">
+            <div id="townpic">
+              <picture>
+                <source media="(max-width: 599px)" srcset="images/fishhaven600w.jpg">
+                <source media="(max-width: 799px)" srcset="images/fishhaven800w.jpg">
+                <source media="(min-width: 800px)" srcset="images/fishhaven1000w.jpg">
+                <img src="images/fishhaven1000w.jpg" alt="A cabin in Fish Haven">
+              </picture>
+            </div>
+            <section class="summary">
+              <h3>Weather Summary</h3>
+              <p>Currently: <span id="current"></span></p><br>
+              <p>Temperature: <span id="temperature"></span>&#xb0; F</p><br>
+              <p>Humidity: <span id="humidity"></span>&#x0025;</p><br>
+              <p>Wind Speed: <span id="wind"></span> mph</p><br>
+              <p>Wind Chill: </p><div id="outputDiv"></div>
+            </section>
+        </div>
+        <div class="forecast">
+          <h3>5 Day Forecast</h3>
+          <div id="fiveDay">
+          <table>
+            <tr>
+                <td class="days"><span id="wday1"></span></td>
+                <td class="days"><span id="wday2"></span></td>
+                <td class="days"><span id="wday3"></span></td>
+                <td class="days"><span id="wday4"></span></td>
+                <td class="days"><span id="wday5"></span></td>
+            </tr>
+            <tr>
+                <td><img id="day1" src="#" alt=""/><br><span id="day1temp"></span>&#xb0; F</td>
+                <td><img id="day2" src="#" alt=""/><br><span id="day2temp"></span>&#xb0; F</td>
+                <td><img id="day3" src="#" alt=""/><br><span id="day3temp"></span>&#xb0; F</td>
+                <td><img id="day4" src="#" alt=""/><br><span id="day4temp"></span>&#xb0; F</td>
+                <td><img id="day5" src="#" alt=""/><br><span id="day5temp"></span>&#xb0; F</td>
+            </tr>
+          </table>
+        </div>
+        </div>
+		    <div class="story">
+          <img src="images/watermilfoil.png" alt="Eurasian watermilfoil growing in the lake"/>
+          <h3>Invasive water plant found in Bear Lake</h3>
+          <p id="author">by Rod Boam</p>
+          <p>An invasive water plant, Eurasian watermilfoil, has been growing in Bear Lake unchecked for nearly two years, said Jeremy Varley. 
+              Varley is the program manager for the noxious weed program at Idaho Department of Agriculture.</p>
+          <p>The Idaho Department of Agriculture found the plant and then informed their Utah counterpart, Aaron Eagar from the Utah Department of Agriculture.</p>
+          <p>Varley said his crews were conducting a routine survey of the lake, looking for invasive species when they discovered it.</p>
+          <p>“We sent a sample off to the lab to make sure it was Eurasian watermilfoil,” he said. “Once the plant was verified, we formed a treatment plan and
+               went to work removing it from the lake.”</p>
+        </div>
+        <div class="eventcard"></div>
+        <div class="contact">
+          <div><img src="images/map.png" alt="map of headquarters"/></div>
+          <div>
+            <h3>Weather Works</h3>
+            <p>82 S State St,<br>Preston, ID 83263<br>contact@weatherworks.net</p>
+          </div>
+        </div>
+	
+	  </main>
+
+    <footer>
+		
+    &copy; <script src="js/currentyear.js"></script> Weather Works | designed by <a href="../index.html">Dez Butler</a><br>
+    <a href="https://www.byui.edu/legal">Terms of use</a> | <a href="https://openweathermap.org/">OpenWeatherMap.org</a>
+    <div id="junkdate"><script src="js/junkdate.js"></script></div>
+		
+    </footer>
+    <script src="js/fishhavenweatherapi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/fishhavenevents.js"></script>
+  </body>
+</html>

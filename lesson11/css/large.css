@@ -1,0 +1,60 @@
+/* desktop view */
+@media only screen and (min-width: 60em) {
+
+    #logo {
+        width: 200px;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: auto;
+        min-height: 20rem;
+    }
+
+    footer {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .grid {
+        align-content: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid figure {
+        margin: auto;
+    }
+
+    .grid figure img:hover {box-shadow: 0 0 0px #333;}
+
+    .grid figure:hover {box-shadow: 0 0 15px #333;}
+
+    .towncards {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+    .towncards img {
+		width: 100%;
+		float: none;
+	}
+
+	.towncards div {
+		width: 100%;
+		float: none;
+		padding-bottom: 25px;
+    }
+    
+    section.towncard:nth-of-type(3) img {
+		width: 100%;
+		float: none;
+	}
+
+	section.towncard:nth-of-type(3) div {
+		width: 100%;
+        float: none;
+        padding-bottom: 10px;
+	}
+
+}
