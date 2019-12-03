@@ -32,7 +32,7 @@ header div {
 }
 nav {
 	margin: 0 auto;
-    background-color: #488a99;
+    background-color: #2C5C62;
     font-family: 'Open Sans', sans-serif;
 }
 nav ul {
@@ -163,7 +163,7 @@ section p {
 	position: absolute;
 	top: 25px;
 	left: 50px;
-    background-color: #488a99;
+    background-color: #2C5C62;
     color: #f9f8f2;
 	border: 1px solid #000000;
 	padding: 1.5rem;
@@ -206,7 +206,7 @@ section p {
     margin: 20px auto;
     padding: 40px;
     text-align: center;
-    background-color: #488a99;
+    background-color: #2C5C62;
     color: #f9f8f2;
     padding: 20px;
 }
@@ -259,14 +259,14 @@ section p {
 form fieldset {
     margin: 2rem auto;
     max-width: 500px;
-    border: 1px solid #488a99;
+    border: 1px solid #2C5C62;
     border-radius: 10px;
     padding: 2rem;
     text-align: left;
 }
 
 form legend {
-    color: #488a99;
+    color: #2C5C62;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -274,7 +274,7 @@ form legend {
 form label.formtitle, form div {
     display: block;
     padding-top: 1.75rem;
-    color: #488a99;
+    color: #2C5C62;
     font-size: 1rem;
 }
 
@@ -323,7 +323,7 @@ footer {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
-    background-color: #488a99;
+    background-color: #2C5C62;
     color: #f9f8f2;
 }
 
