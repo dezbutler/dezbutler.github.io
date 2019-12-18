@@ -152,9 +152,14 @@ main a:hover {
     text-decoration: underline;
 }
 
+.greybox p {
+    margin: 0;
+}
+
 .closures p{
     margin: auto;
 }
+
 
 form fieldset {
     margin: 2rem auto;
