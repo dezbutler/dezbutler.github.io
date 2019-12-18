@@ -1,6 +1,12 @@
 {
     "temples": [
         {
+            "name": "placeholder",
+            "closures": [
+                "placeholder"
+            ]
+        },
+        {
             "name": "Cardston Alberta Temple",
             "closures": [
                 "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
