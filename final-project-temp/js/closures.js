@@ -1,4 +1,4 @@
-const requestURL = 'data/temples.json';
+const requestURL = 'https://dezbutler.github.io/final-project-temp/data/temples.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject); 
 
   const temples = jsonObject['temples'];
-  if (i = 0) {
+  if (i = 1) {
         let closurefield = document.createElement('section');
         let c1 = document.createElement('p');
         let c2 = document.createElement('p');

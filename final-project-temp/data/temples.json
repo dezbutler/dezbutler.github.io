@@ -1,20 +1,21 @@
 {
-    "temples": [{
-        "name": "Cardston Alberta Temple",
-        "closures": [
-            "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
-            "Tuesday, 31 December 2019",
-            "Wednesday, 1 January 2020",
-            "Monday, 13 January 2020 - Monday, 27 January 2020",
-            "Saturday, 4 April 2020",
-            "Monday, 3 August 2020 - Monday, 17 August 2020",
-            "Saturday, 3 October 2020",
-            "Wednesday, 11 November 2020",
-            "Thursday, 24 December 2020",
-            "Friday, 25 December 2020",
-            "Saturday, 26 December 2020",
-            "Thursday, 31 December 2020"
-        ]
+    "temples": [
+        {
+            "name": "Cardston Alberta Temple",
+            "closures": [
+                "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+                "Tuesday, 31 December 2019",
+                "Wednesday, 1 January 2020",
+                "Monday, 13 January 2020 - Monday, 27 January 2020",
+                "Saturday, 4 April 2020",
+                "Monday, 3 August 2020 - Monday, 17 August 2020",
+                "Saturday, 3 October 2020",
+                "Wednesday, 11 November 2020",
+                "Thursday, 24 December 2020",
+                "Friday, 25 December 2020",
+                "Saturday, 26 December 2020",
+                "Thursday, 31 December 2020"
+            ]
         },
         {
             "name": "Calgary Alberta Temple",

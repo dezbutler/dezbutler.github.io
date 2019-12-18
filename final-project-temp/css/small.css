@@ -152,6 +152,10 @@ main a:hover {
     text-decoration: underline;
 }
 
+.closures {
+    display: block;
+}
+
 form fieldset {
     margin: 2rem auto;
     max-width: 400px;
