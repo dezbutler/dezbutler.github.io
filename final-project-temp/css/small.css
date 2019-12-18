@@ -270,6 +270,7 @@ form input.submitbutton:hover {
 }
 
 #contact iframe {
+    max-width: 90%;
     box-shadow: 0 0 15px #555555;
     margin: 60px 0px;
 }
