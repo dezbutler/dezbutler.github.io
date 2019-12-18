@@ -39,4 +39,15 @@
 		margin: 20px;
 	}
 
+	#contact {
+		grid-template-columns: 3fr 2fr;
+	}
+
+	#contactinfo {
+		text-align: left;
+	}
+
+	#contact iframe {
+		float: right;
+	}
 }

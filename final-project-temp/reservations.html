@@ -37,7 +37,47 @@
         </nav>
         <main>
             
-            <h3>Booking Options Inbound</h3>
+            <h2>Book Your Suite</h2>
+            <form id="booking" method="GET" action="booked.html">
+                <label>Choose your hotel:</label>
+                <input type="text" name="location" list="hotel_list" placeholder=" -select-" required>
+                <datalist id="hotel_list">
+                    <option>Cardston Alberta</option>
+                    <option>Calgary Alberta</option>
+                    <option>Edmonton Alberta</option>
+                    <option>Vancouver British Columbia</option>
+                </datalist>
+                <label>Check-in</label>
+                <input type="date" name="checkin" required>
+                <label>Check-out</label>
+                <input type="date" name="checkout" required>
+                <label>Number of guests:</label>
+                <input type="number" name="guests" placeholder=" #" required>
+                <label>Number of rooms:</label>
+                <input type="number" name="rooms" placeholder=" #" required>
+                <label>Room Type:</label>
+                <input type="text" name="roomtype" list="room_list" placeholder=" -select-" required>
+                <datalist id="room_list">
+                    <option>Single Queen</option>
+                    <option>Two Queen</option>
+                    <option>Two King</option>
+                    <option>Two Queen (extended stay)</option>
+                </datalist>
+                <label>Full Name:</label>
+                <input type="text" name="name" pattern="[A-Za-z\s]{5,}" placeholder=" Jane Smith" required>
+                <label>Email address:</label>
+                <input type="email" name="email" placeholder=" address@email.com" required>
+                <label>Phone number:</label>
+                <input type="tel" name="phone" placeholder=" 604-555-6789" required>
+                <label>Street address:</label>
+                <input type="text" name="address" placeholder=" 100 Center Street" required>
+                <label>Zip/Postal code:</label>
+                <input type="text" name="code" placeholder=" V2Y 2A9" required>
+                <label>Special Accomodations:</label>
+                <input type="text" name="special" placeholder=" Type here...">
+                <input type="submit" class="formbutton" value="Book Now" class="submitbutton">
+            </form>
+            
         
         </main>
 

@@ -160,6 +160,34 @@ main a:hover {
     margin: auto;
 }
 
+#booking {
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #d6d6d6;
+    padding: 20px;
+    max-width: 300px;
+}
+
+#booking label {
+    flex: left;
+    margin-top: 10px;
+}
+
+.formbutton {
+    color: #efefef;
+    margin: 20px auto auto auto;
+    padding: 15px;
+    background-color: #441d1d;
+    width: 150px;
+}
+
+.formbutton:hover {
+    color: #e5cb91;
+}
 
 form fieldset {
     margin: 2rem auto;
@@ -229,8 +257,30 @@ form input.submitbutton:hover {
     font-size: .75rem;
 }
 
+
+
 .bold {
     font-weight: bold;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+#contact iframe {
+    box-shadow: 0 0 15px #555555;
+    margin: 60px 0px;
+}
+
+#contact div p {
+    margin: auto;
+}
+
+#contactinfo {
+    text-align: center;
+    padding: 30px;
 }
 
 footer {
