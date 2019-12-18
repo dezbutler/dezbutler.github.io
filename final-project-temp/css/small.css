@@ -1,0 +1,241 @@
+/* phone and baseline view */
+body {
+    text-align: center;
+    margin: auto;
+    background-color: #efefef;
+}
+
+header {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    margin: auto;
+    color: #4f4f4f;
+    font-size: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0px;
+}
+
+header p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+header div {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 150px;
+    padding: 25px;
+}
+
+.navigation .active {
+	color: #e5cb91;
+}
+
+nav {
+	margin: 0 auto;
+    background-color: #441d1d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #efefef;
+	padding: 15px 0px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	background-color: #4f4f4f;
+}
+
+.responsive li {
+	display: block;
+}
+
+main {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    color: #4f4f4f;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.pagebutton {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #441d1d;
+    width: 150px;
+}
+
+main a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+main a:hover {
+    color: #e5cb91;
+}
+
+.listgrid {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.listgrid div {
+    text-align: center;
+    max-width: 20rem;
+}
+
+.listgrid li {
+    text-align: left;
+}
+
+.greybox {
+    background-color: #d6d6d6;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left; 
+}
+
+.greybox h3 {
+    text-align: center;
+}
+
+.greybox img {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 15px #555555;
+    max-width: 100%;
+}
+
+.greybox a {
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
+.greybox a:hover {
+    color: #441d1d;
+    text-decoration: underline;
+}
+
+form fieldset {
+    margin: 2rem auto;
+    max-width: 400px;
+    border: 1px solid #4f4f4f;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: left;
+}
+
+form legend {
+    color: #4f4f4f;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.formtitle, form div {
+    display: block;
+    padding-top: 1.5rem;
+    color: #4f4f4f;
+    font-size: 1rem;
+}
+
+form label.formtitle input, form label.formtitle textarea, form label.formtitle select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#formfirst {
+    padding-top: 0;
+}
+
+form label.radio {
+    display: block;
+    padding: .5rem 0;
+    color: #555;
+}
+
+form input.submitbutton {
+    border: none;
+    background-color: #441d1d;
+    color: #efefef;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitbutton:hover {
+    color: #e5cb91;
+}
+
+.comments {
+    height: 3rem;
+}
+
+#req {
+    margin: .5rem 0;
+    font-size: .75rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    background-color: #441d1d;
+    color: #efefef;
+}
+
+footer p {
+    margin: .5rem;
+}
+
+footer a {
+    color: #efefef;
+}

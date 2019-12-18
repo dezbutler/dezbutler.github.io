@@ -1,0 +1,42 @@
+/* tablet view */
+@media only screen and (min-width: 37.5em) {
+    main {
+        max-width: 1000px;
+        min-height: 25rem;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #f9f8f2;
+    }
+    #logo {
+        height: 175px;
+	}
+
+	.listgrid {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.greybox {
+		overflow: hidden;
+	}
+	
+	.greybox p {
+		padding: 5px 20px;
+	}
+
+	.greybox img {
+		float: right;
+		margin: 20px;
+	}
+
+}
