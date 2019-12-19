@@ -156,14 +156,37 @@ main a:hover {
     margin: 0;
 }
 
+.templepagebutton {
+    font-weight: normal;
+    text-align: center;
+    color: #efefef;
+    margin: 20px auto auto auto;
+    padding: 15px;
+    background-color: #441d1d;
+    width: 150px;
+}
+
+.templepagebutton:hover {
+    color: #e5cb91;
+}
+
 .textblock {
     margin: 20px;
 }
 
-.greybox a div {
+#receptionpagebutton {
+    color: #efefef;
+    margin: 20px auto auto auto;
+    padding: 15px;
+    background-color: #441d1d;
+    width: 150px;
     font-weight: normal;
     margin: 20px auto auto auto;
     text-align: center;
+}
+
+#receptionpagebutton:hover {
+    color: #e5cb91;
 }
 
 .closures p{
