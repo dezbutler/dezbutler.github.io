@@ -91,6 +91,7 @@ main {
 }
 
 .pagebutton {
+    text-align: center;
     margin: 20px auto;
     padding: 15px;
     background-color: #441d1d;
@@ -302,6 +303,32 @@ form input.submitbutton:hover {
 
 .bold {
     font-weight: bold;
+}
+
+#amenitypics {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 800px;
+}
+
+#amenitypics img {
+    margin: 0;
+    max-width: 100%;
+}
+
+#amenities {
+    margin: auto;
+    max-width: 750px;
+    text-align: left;
+}
+
+#amenities h2 {
+    text-align: center;
+}
+
+#amenities.pagebutton {
+    text-align: center;
 }
 
 #contact {
