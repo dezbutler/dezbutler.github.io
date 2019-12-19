@@ -321,6 +321,8 @@ form input.submitbutton:hover {
     margin: auto;
     max-width: 750px;
     text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #amenities h2 {
