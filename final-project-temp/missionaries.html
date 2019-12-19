@@ -38,9 +38,30 @@
         <main>
             
             <h2>Temple Missionary Accommodations</h2>
-            <p>Making Temple Inn and Suites your home away from home is easier than you ever. With our specially designed extended stay rooms, you will enjoy all of the 
-                usual features and more.
-            </p>
+            <div class="greybox">
+                <img src="images/kitchenette.jpg" alt="hotel room with kitchenette"/>
+                <br>
+                <p>Making Temple Inn and Suites your home away from home is easier than ever. With our specially designed extended stay rooms, you will enjoy all of the 
+                    usual features and more.</p>
+                <p>Extended stay rooms feature a kitchenette which features a larger refrigerator and a full-size stove-top oven.</p> 
+                <p>We know that when away from home giving of your time to service, you will have family that wants to visit, and so the living space provided is larger than 
+                other hotel rooms and features seating for guests.
+                </p>
+                <br>
+                <p class="bold">Use the contact form below for additional questions.</p>
+            </div>
+            <form method="GET" action="sent.html">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label class="formtitle" id="formfirst">Full Name* <input type="text" name="name" pattern="[A-Za-z\s]{5,}" placeholder="Jane Smith" required></label>
+                    <label class="formtitle">Email* <input type="email" name="email" placeholder="address@email.com" required></label>
+                    <label class="formtitle">Phone <input type="tel" name="phone" placeholder="403-555-6789"></label>
+                    <label class="formtitle">Questions/Comments*<textarea class="comments" placeholder="Type here..." required></textarea></label>
+                    <p id="req">&emsp;* required fields</p>
+                </fieldset>
+                    <input type="submit" value="Send Message" class="submitbutton">
+            </form>
+
         
         </main>
 
