@@ -156,6 +156,10 @@ main a:hover {
     margin: 0;
 }
 
+.textblock {
+    margin: 20px;
+}
+
 .greybox a div {
     font-weight: normal;
     margin: 20px auto auto auto;
