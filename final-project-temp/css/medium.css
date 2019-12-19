@@ -39,6 +39,10 @@
 		margin: 20px;
 	}
 
+	.greybox a div {
+		margin: 20px auto auto 100px;
+	}
+
 	#contact {
 		grid-template-columns: 3fr 2fr;
 	}

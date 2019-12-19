@@ -38,7 +38,7 @@
         <main>
             
             <h2>Book Your Suite</h2>
-            <form id="booking" method="GET" action="booked.html">
+            <form class="booking" method="GET" action="booked.html">
                 <label>Choose your hotel:</label>
                 <input type="text" name="location" list="hotel_list" placeholder=" -select-" required>
                 <datalist id="hotel_list">
@@ -62,6 +62,7 @@
                     <option>Two Queen</option>
                     <option>Two King</option>
                     <option>Two Queen (extended stay)</option>
+                    <option>Temple Reception Hall</option>
                 </datalist>
                 <label>Full Name:</label>
                 <input type="text" name="name" pattern="[A-Za-z\s]{5,}" placeholder=" Jane Smith" required>
@@ -75,7 +76,7 @@
                 <input type="text" name="code" placeholder=" V2Y 2A9" required>
                 <label>Special Accomodations:</label>
                 <input type="text" name="special" placeholder=" Type here...">
-                <input type="submit" class="formbutton" value="Book Now" class="submitbutton">
+                <input type="submit" class="formbutton" id="bookbutton" value="Book Now">
             </form>
             
         

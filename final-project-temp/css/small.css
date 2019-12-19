@@ -156,11 +156,17 @@ main a:hover {
     margin: 0;
 }
 
+.greybox a div {
+    font-weight: normal;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
 .closures p{
     margin: auto;
 }
 
-#booking {
+.booking {
     text-align: left;
     margin: auto;
     margin-bottom: 20px;
@@ -168,13 +174,22 @@ main a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #d6d6d6;
-    padding: 20px;
+    padding: 20px 40px;
     max-width: 300px;
 }
 
-#booking label {
+.booking label {
     flex: left;
     margin-top: 10px;
+}
+
+.booking input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#bookbutton {
+    padding: 15px;
 }
 
 .formbutton {
