@@ -45,6 +45,10 @@
 		margin: 20px;
 	}
 
+	#templebox img {
+		float: none;
+	}
+
 	#receptionpagebutton {
 		margin: 20px auto auto 100px;
 	}
