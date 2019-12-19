@@ -39,17 +39,17 @@
 		margin: 20px;
 	}
 
-	#templebox {
+	.templebox {
 		display: block;
 		float: right;
 		margin: 20px;
 	}
 
-	#templebox img {
+	.templebox img {
 		float: none;
 	}
 
-	
+
 
 	#receptionpagebutton {
 		margin: 20px auto auto 100px;
