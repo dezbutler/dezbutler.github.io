@@ -367,3 +367,7 @@ footer p {
 footer a {
     color: #efefef;
 }
+
+.fineprint {
+    font-size: .7em;
+}
